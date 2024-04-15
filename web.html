@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigMike23</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Agregar enlace al archivo CSS de Font Awesome -->
+    <style>
+        header {
+            background-color: #000; 
+            padding: 10px 20px;
+            display: flex; /* Utilizar flexbox para alinear elementos */
+            justify-content: space-between; /* Distribuir elementos horizontalmente */
+            align-items: center; /* Alinear elementos verticalmente al centro */
+            margin-top: 20px; /* Espacio superior */
+        }
+
+        h1 {
+            text-align: center; /* Centrar el texto */
+            font: bold 36px Arial, sans-serif; /* Estilo de fuente */
+            color: #fff; /* Color del texto */
+            margin: 0; /* Eliminar el margen superior e inferior del título */
+            flex: 1; /* Ocupar todo el espacio restante */
+        }
+
+        .boton {
+            background-color: #ffffff; /* Color de fondo blanco */
+            color: #000; /* Color del texto */
+            text-align: center; /* Centrar el texto */
+            padding: 10px 20px; /* Espaciado dentro del botón */
+            text-decoration: none; /* Quitar subrayado de enlace */
+            border-radius: 5px; /* Borde redondeado */
+            display: inline-block; /* Convertir a bloque en línea */
+            margin-right: 10px; /* Margen derecho entre botones */
+           
+        }
+
+        .boton:hover {
+            background-color: #000; /* Cambiar color de fondo al pasar el cursor */
+            color: #fff; /* Cambiar color del texto al pasar el cursor */
+        }
+
+        .boton-imagen {
+            display: inline-block; /* Convertir a bloque en línea */
+            vertical-align: middle; /* Alinear verticalmente */
+            cursor: pointer; /* Cambiar cursor al pasar sobre la imagen */
+        }
+
+        .icono-instagram {
+            color: #fff; /* Color del icono */
+            font-size: 24px; /* Tamaño del icono */
+            cursor: pointer; /* Cambiar cursor al pasar sobre el icono */
+        }
+
+        .botones-container {
+            text-align: left; /* Alinear texto a la izquierda */
+            margin-top: 20px; /* Espacio superior para los botones */
+        }
+
+        .botones-imagenes {
+            margin-top: 20px; /* Espacio entre los botones y las imágenes */
+            display: flex; /* Utilizar flexbox para alinear elementos */
+            justify-content: center; /* Centrar horizontalmente */
+            flex-wrap: wrap; /* Permitir que los elementos se envuelvan en líneas */
+        }
+
+        .retro1 {
+            margin-right: 20px; /* Mover hacia la izquierda */
+        }
+
+        .nb {
+            margin-left: 50px; /* Espacio de 50px entre retro1 y nb */
+            margin-top: 0px; /* Eliminar margen superior */
+            position: relative; /* Posición relativa para alinear el texto */
+        }
+
+        .new-text {
+            position: absolute; /* Posición absoluta para superponer el texto */
+            bottom: -30px; /* Mover el texto hacia abajo */
+            left: 50%; /* Centrar horizontalmente */
+            transform: translateX(-50%); /* Centrar horizontalmente */
+            background-color: #fff; /* Color de fondo blanco */
+            padding: 5px 10px; /* Espaciado dentro del botón */
+            border-radius: 5px; /* Borde redondeado */
+            text-decoration: none; /* Quitar subrayado de enlace */
+            color: #000; /* Color del texto */
+            font-weight: bold; /* Negrita */
+            display: inline-block; /* Convertir a bloque en línea */
+        }
+
+        .nb-text:hover {
+            background-color: #000; /* Cambiar color de fondo al pasar el cursor */
+            color: #fff; /* Cambiar color del texto al pasar el cursor */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="pagina_principal.html" class="boton">BM</a></h1>
+        <i class="fab fa-instagram icono-instagram"></i> <!-- Icono de Instagram -->
+    </header>
+
+    <!-- Botones "Zapatos" y "Camisetas" -->
+    <div class="botones-container">
+        <a href="pagina_novedades.html" class="boton">Novedades</a>
+        <a href="pagina_marcas.html" class="boton">Marcas</a>
+        <a href="pagina_zapatos.html" class="boton">Zapatos</a>
+        <a href="pagina_camisetas.html" class="boton">Camisetas</a>
+        <a href="pagina_rebajas.html" class="boton">Rebajas</a>
+    </div>
+
+    <!-- Imagen botón -->
+
+    
+    <div class="botones-imagenes">
+        <a href="jordan1.html" class="boton-imagen">
+            <img src="imagenes/jordan1.jpg" alt="Jordan" width="432" height="598">
+        </a>
+        <a href="camisetas1.html" class="boton-imagen">
+            <img src="imagenes/camisetas1.jpg" alt="Camisetas" width="432" height="598">
+        </a>
+        <a href="dunk.html" class="boton-imagen">
+            <img src="imagenes/dunk.jpg" alt="Dunk" width="431" height="598">
+        </a>
+    </div>
+
+    <!-- Imágenes adicionales debajo -->
+    <div class="botones-imagenes">
+        <a href="retro.html" class="boton-imagen nb">
+            <img src="imagenes/retro1.png" alt="Nike" width="224" height="299">
+            <span class="new-text">Jordan</span>
+        </a>
+        <a href="new.html" class="boton-imagen nb">
+            <img src="imagenes/nb.png" alt="new" width="224" height="299">
+            <span class="new-text">New Balance</span>
+
+        </a>
+        <a href="panda.html" class="boton-imagen nb">
+            <img src="imagenes/panda.png" alt="panda" width="224" height="299">
+            <span class="new-text">Panda</span>
+        </a>
+    </a>
+    <a href="travis.html" class="boton-imagen nb">
+        <img src="imagenes/travis.png" alt="travis" width="224" height="299">
+        <span class="new-text">Travis</span>
+    </a>
+    </div>
+</body>
+</html>
